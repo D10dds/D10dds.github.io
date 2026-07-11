@@ -37,6 +37,10 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       # 3. 构建 Hugo 网站 (生成 public 文件夹)
       - name: Build with Hugo
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
