@@ -143,7 +143,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -190,24 +190,36 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-
       - company: "Zhejiang University International Design Institute"
-        
         jobs:
-        - name: "UI/UX Designer"
-          date: "June 2024 - April 2026"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - name: "UI/UX Designer (Intern)"
+            date: "Dec 2024 - Jun 2025"
+            content: |
+              Project: Bosideng Group B-end AI Design Platform UI/UX Design
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
+              - As a core designer, independently owned the end-to-end UX/UI design for a B-end AI platform enabling designers to rapidly generate fashion design images. Led the interaction optimization for 5+ core AI-driven features, including Text-to-Image, Image Variation, and Scene Viewing.
+              - Developed and maintained a reusable design system based on Ant Design, improving the component reuse rate for the front-end development team and ensuring long-term visual and interaction consistency.
+              - Collaborated closely with product managers and front-end engineers, leading design reviews, walkthroughs, and high-fidelity prototype delivery to ensure accurate implementation and successful system launch.
 
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "UI/UX Designer (Intern)"
+            date: "Jun 2024 - Dec 2024"
+            content: |
+              Project: International Academic Database Website UI/UX Redesign
+
+              - Led the UI visual and interaction redesign for an academic database website targeting international users, defining a modern design language that aligns with the target audience's aesthetics and usage patterns.
+              - Significantly improved content discoverability and browsing experience by optimizing the information architecture and navigation flow.
+              - Ensured high-fidelity, responsive implementation across devices through close collaboration with the development team.
+
+          - name: "Visual & Interaction Design Lead"
+            date: "Jun 2023 - Nov 2023"
+            content: |
+              National College Student Innovation and Entrepreneurship Competition - Silver Award (National Top 2%)
+
+              Collaboration with Zhejiang University Computer Science Department
+
+              - Served as the core design lead in a 5-member interdisciplinary team, establishing the complete visual identity and UI/UX design (covering mobile app and web admin panel) from scratch for the project "Professional Large Language Model Applications in New Liberal Arts."
+              - Designed and implemented a key interactive data visualization dashboard that transformed complex LLM outputs into intuitive visual insights, effectively enhancing decision-making efficiency for target users (liberal arts researchers).
+              - Coordinated design, technical development, and business logic throughout the project, ensuring the final deliverable was user-friendly, technically viable, and presented a clear business narrative.
 
   # Education
   education:
@@ -215,46 +227,16 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Engineering, Industrial Design"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "China Academy of Art"
+        date: "Sep 2022 - Jul 2026"
+        GPA: "3.3"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-
+          Relevant Coursework: Interaction Design, User Experience Research, Visual Communication, Product Prototyping
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -279,58 +261,79 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Bosideng B-end AI Design Platform
+        content: UI/UX design for a B-end AI platform enabling designers to rapidly generate fashion design images. Led interaction optimization for 5+ core AI-driven features including Text-to-Image, Image Variation, and Scene Viewing.
+        image: /images/projects/bosideng.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: View PDF
+          link: /files/projects/bosideng.pdf
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - "UI/UX"
+          - "B-end"
+          - "AI Platform"
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Daily Planner App for College Girls
+        content: A daily planner and schedule management app designed for college female students, focusing on friendly visual style and intuitive task tracking experience.
+        image: /images/projects/ui1.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: View PDF
+          link: /files/projects/ui1.pdf
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          - "UI/UX"
+          - "Mobile App"
+          - "Coursework"
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Academic Database Website Redesign
+        content: Led the UI visual and interaction redesign for an academic database website targeting international users. Improved content discoverability and browsing experience through information architecture and navigation optimization.
+        image: /images/projects/ui2.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: View PDF
+          link: /files/projects/ui2.pdf
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "UI/UX"
+          - "Redesign"
+          - "Responsive"
+
+      - title: Graduation Project - Image Particle Sampler
+        content: An interactive image particle sampling tool developed as a graduation project, combining visual design and creative coding to transform images into dynamic particle-based visual outputs.
+        image: /images/projects/bishe.jpg
+        featured:
+          name: Download
+          link: /files/projects/imageParticleSampler.zip
+        badges:
+          - "Creative Coding"
+          - "Graduation Project"
+          - "Interactive"
+
+      - title: HZWK Tech Corporate Website
+        content: A corporate website for HZWK Technology, independently designed and developed from scratch. Covered the full process from visual design to front-end implementation.
+        image: /images/projects/wuke.png
+        featured:
+          name: Visit Website
+          link: https://hzwktech.com/
+        badges:
+          - "Web Design"
+          - "Front-end"
+          - "Corporate"
+
+      - title: Talking Tom Kids AI Toy App
+        content: UI design for a children's AI toy app based on the Talking Tom IP. Designed a kid-friendly interaction experience tailored for young users and connected to the smart hardware product.
+        image: /images/projects/tongban.png
+        featured:
+          name: Download
+          link: https://apph5-prod.xidongai.com/?bindType=1
+        badges:
+          - "UI/UX"
+          - "Kids App"
+          - "AI Toy"
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I鈥檒l try my best to get back to you!
+    content: My inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you. You can reach me at dai_yining@qq.com.
     btnName: Mail me
-    btnLink: daiyining@qq.com
+    btnLink: mailto:dai_yining@qq.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'daiyining@qq.com'
