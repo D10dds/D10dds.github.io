@@ -327,8 +327,8 @@ params:
           - "Kids App"
           - "AI Toy"
 
-      - title: Research Proposal High-Fidelity Design
-        content: High-fidelity design and detailed execution plan for graduate school application research proposal. Comprehensive UX/UI design covering user research, wireframing, prototyping, and implementation roadmap.
+      - title: Research Proposal Design
+        content: High-fidelity design and detailed execution plan for graduate school application research proposal.
         image: /images/projects/rp.png
         featured:
           name: View Document
